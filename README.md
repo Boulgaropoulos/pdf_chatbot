@@ -48,7 +48,7 @@ queued jobs -> parse PDF -> chunk text -> embed chunks -> store vectors -> ready
 Requirements:
 
 - Docker Desktop (see here: https://www.docker.com/products/docker-desktop/)
-- A LLM API key
+- An OPENAI API key
 
 Create an environment file:
 
@@ -59,7 +59,7 @@ Copy-Item .env.example .env
 Edit `.env` and set:
 
 ```env
-OPENAI_API_KEY=your_api_key_here
+OPENAI_API_KEY=your_openai_api_key_here
 ```
 
 Start everything:
@@ -174,11 +174,12 @@ I couldn't find an answer to that question in the uploaded documents.
 ## What I Would Do Next
 
 - Add automated API and worker tests.
+- Add funcionality to connect any LLM API key
 - Add OCR for scanned PDFs.
 - Add source previews or page snippets next to citations.
 - Add reranking to improve retrieval quality.
-- Persist chat history.
-- Chat message encryption (Symmetric, E2EE?-> dependent on scope)
+- Persist chat history in Postgres
+- Chat message encryption (Symmetric, E2EE? -> dependent on scope)
 - Add authentication and proper workspace ownership.
 - Replace startup table creation with Alembic migrations.
 - Harden upload limits, file validation, and rate limiting
