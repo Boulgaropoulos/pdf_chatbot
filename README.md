@@ -48,7 +48,7 @@ queued jobs -> parse PDF -> chunk text -> embed chunks -> store vectors -> ready
 Requirements:
 
 - Docker Desktop (see here: https://www.docker.com/products/docker-desktop/)
-- An LLM API key
+- A LLM API key
 
 Create an environment file:
 
