@@ -84,6 +84,12 @@ Health:   http://localhost:8000/health
 
 ## API Overview
 
+The API is documented with Swagger (OpenAPI). Once the application is running, you can explore and test all endpoints locally at:
+
+```text
+http://localhost:8000/docs
+```
+
 ```text
 GET /workspaces
 ```
@@ -180,8 +186,7 @@ I couldn't find an answer to that question in the uploaded documents.
 ## What I Would Do Next
 
 - Add automated API and worker tests.
-- Add funcionality to connect any LLM API key
-- Add OCR for scanned PDFs.
+- Add funcionality to support configurable LLM providers and API keys.
 - Add source previews or page snippets next to citations.
 - Add reranking to improve retrieval quality.
 - Persist chat history in Postgres
