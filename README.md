@@ -47,7 +47,7 @@ queued jobs -> parse PDF -> chunk text -> embed chunks -> store vectors -> ready
 
 Requirements:
 
-- Docker Desktop (see here: https://www.docker.com/products/docker-desktop/)
+- Docker Desktop (Windows/macOS) or Docker Engine + Docker Compose (Linux)
 - An OPENAI API key
 
 Create an environment file:
