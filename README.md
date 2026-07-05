@@ -47,19 +47,19 @@ queued jobs -> parse PDF -> chunk text -> embed chunks -> store vectors -> ready
 
 Requirements:
 
-- Docker Desktop
-- An OpenAI API key
+- Docker Desktop (see here: https://www.docker.com/products/docker-desktop/)
+- An LLM API key
 
 Create an environment file:
 
 ```powershell
-Copy-Item .env.example .env
+Copy-Item .env.example .env 
 ```
 
 Edit `.env` and set:
 
 ```env
-OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_API_KEY=your_api_key_here
 ```
 
 Start everything:
