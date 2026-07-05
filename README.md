@@ -52,7 +52,11 @@ Requirements:
 
 Create an environment file:
 
-```powershell
+
+```bash (MacOS/Linux)
+cp .env.example .env
+
+```powershell (Windows)
 Copy-Item .env.example .env 
 ```
 
