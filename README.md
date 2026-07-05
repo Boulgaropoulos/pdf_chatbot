@@ -178,6 +178,7 @@ I couldn't find an answer to that question in the uploaded documents.
 - Add source previews or page snippets next to citations.
 - Add reranking to improve retrieval quality.
 - Persist chat history.
+- Chat message encryption (Symmetric, E2EE?-> dependend on scope)
 - Add authentication and proper workspace ownership.
 - Replace startup table creation with Alembic migrations.
-- Harden upload limits, file validation, and rate limiting.
+- Harden upload limits, file validation, and rate limiting
