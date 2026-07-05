@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.next/
+node_modules/
+uploads/
+postgres_data/
+*.pdf
